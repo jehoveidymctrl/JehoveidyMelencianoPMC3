@@ -1,0 +1,14 @@
+schema: spec-driven
+
+context: |
+  Proyecto académico: programa de gestión de costos de un vehículo.
+  Lenguaje: C (estándar C99), sin librerías externas.
+  Estructura: núcleo sin entrada/salida (costos.c) + interfaces (consola y gráfica).
+  Idioma de la documentación y de los mensajes: español. Texto en UTF-8.
+
+rules:
+  specs:
+    - Cada requisito usa SHALL y tiene al menos un escenario WHEN/THEN.
+    - Cada escenario debe poder comprobarse con una prueba automática.
+  tasks:
+    - Las tareas se marcan como completadas solo cuando su prueba pasa.
